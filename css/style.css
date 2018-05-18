@@ -27,13 +27,17 @@ header {
 
 
  header .menu {
+ 	display: -ms-flexbox;
  	display: flex;
- 	justify-content: space-between;
+ 	-ms-flex-pack: justify;
+ 	    justify-content: space-between;
  }
 
 .menu .logo {
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-ms-flex-align: center;
+	    align-items: center;
 }
 
 .menu > ul {
@@ -41,14 +45,19 @@ header {
  	margin-top:25px;
  	padding:0;
   	list-style-type: none;
+  	display: -ms-flexbox;
   	display: flex;
-  	justify-content: flex-end;
+  	-ms-flex-pack: end;
+  	    justify-content: flex-end;
 }
 
 .menu > ul > li {
+  display: -ms-flexbox;
   display: flex; 
-  align-items: center;
-  justify-content: center; 
+  -ms-flex-align: center; 
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; 
   width: 100px;
 }
 
@@ -75,9 +84,12 @@ header {
   background-position: center;
   background-size: cover;
   height: 350px;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .hero .slogan {
@@ -99,6 +111,7 @@ header {
 /* --- sekcja icons -- */
 
 .icons {
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -107,7 +120,8 @@ header {
 .icons .box3 {
  text-align: center;
  height: 350px; 
- flex: 1;
+ -ms-flex: 1; 
+     flex: 1;
 }
 
 .icons > div .icon {
@@ -153,56 +167,68 @@ header {
 
 .row-1,
 .row-2 {
+	display: -ms-flexbox;
 	display: flex;	
 }
 
 
 .gallery-photo1 {
   background-image: url("https://images.pexels.com/photos/227675/pexels-photo-227675.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo2 {
   background-image: url("https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo3 {
   background-image: url("https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo4 {
   background-image: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo5 {
   background-image: url("https://images.pexels.com/photos/356830/pexels-photo-356830.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 2;
+  -ms-flex: 2;
+      flex: 2;
 }
 .gallery-photo6 {
   background-image: url("https://images.pexels.com/photos/533930/pexels-photo-533930.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 2;
+  -ms-flex: 2;
+      flex: 2;
 }
 .gallery-photo7 {
   background-image: url("https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo8 {
   background-image: url("https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo9 {
   background-image: url("https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 .gallery-photo10 {
   background-image: url("https://images.pexels.com/photos/534174/pexels-photo-534174.jpeg?h=350&auto=compress&cs=tinysrgb");
-  flex: 1;
+  -ms-flex: 1;
+      flex: 1;
 }
 
 
 .gallery [class*="gallery-photo"] {
   height: 200px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center;
   position:relative; 
 }
@@ -232,16 +258,23 @@ header {
 
 .personel {
 	margin-top: 50px;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;	
+	-ms-flex-pack: justify;
+	    justify-content: space-between;	
 }
 
 .personel > .person {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	-ms-flex-pack: center;
+	    justify-content: center;
+	-ms-flex-align: center;
+	    align-items: center;
 }
 
 .personel .person > .circle {
@@ -270,9 +303,12 @@ header {
   height: 200px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.8);
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   transform: scale(0); 
 }
 
@@ -301,13 +337,16 @@ header {
 
 .promotion .container {
   margin-top: 40px;
+  display: -ms-flexbox;
   display: flex;
   height: 350px;
-  align-items: flex-end;
+  -ms-flex-align: end;
+      align-items: flex-end;
 }
 
 .promotion .container .promo-picture {
-	  flex: 1;	  
+	  -ms-flex: 1;
+	      flex: 1;	  
 	  background-image: url("https://images.pexels.com/photos/355988/pexels-photo-355988.jpeg?h=350&auto=compress&cs=tinysrgb");
 	  background-position: center;
 	  background-size: cover;
@@ -318,13 +357,16 @@ header {
 }	 
 
 .promo {
-	flex: 3;
+	-ms-flex: 3;
+	    flex: 3;
+	display: -ms-flexbox;
 	display: flex;
 	height: 300px;
 }
 
 .promo-text1 {
-	flex: 2;	
+	-ms-flex: 2;
+	    flex: 2;	
 	color: #fff;
 	padding: 20px;
 	text-align: justify;
@@ -337,7 +379,8 @@ header {
 }
 
 .promo-text2 {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 	color: #fff;
 	text-align: left;
 	font-style: italic;
@@ -352,12 +395,14 @@ header {
 /* --- numbers section --- */
 
 .numbers {
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 40px;
 }
 
 .numbers .number {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 }
 
 .numbers .number h1 {
@@ -382,12 +427,14 @@ header {
 }
 
 .contact .container {
+	display: -ms-flexbox;
 	display: flex;
 	color: #fff;
 }
 
 .contact [class*="contact-box-"] {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 	padding: 20px;
 	text-align: left;
 }
@@ -407,23 +454,29 @@ header {
 
 
 .contact .contact-box-2 .data-address {
+	display: -ms-flexbox;
 	display: flex;	
 }
 
 .contact .contact-box-2 .data-address .column-1 {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 	vertical-align: top;	
 }
 
 
 .contact .contact-box-2 .data-address .column-2 {
-	flex: 3;	
+	-ms-flex: 3;
+	    flex: 3;	
+	display: -ms-flexbox;	
 	display: flex;
-	flex-direction: column;
+	-ms-flex-direction: column;
+	    flex-direction: column;
 }
 
 .contact .contact-box-2 .data-address .column-2 .address {
-	flex: 1;
+	-ms-flex: 1;
+	    flex: 1;
 }
 
 .contact .contact-box-2 .data-address .column-1 .address h5 {
@@ -484,6 +537,7 @@ header {
 	}
 
 	.box4 {
+		display: -ms-flexbox;
 		display: flex;
 	}
 
@@ -493,8 +547,10 @@ header {
 
 	.gallery .row-1,
 	.gallery .row-2 {
-		flex-wrap: wrap;
-		justify-content: center;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-ms-flex-pack: center;
+		    justify-content: center;
 	}
 
 	.gallery [class*="gallery-photo"] {
@@ -517,7 +573,8 @@ header {
 	  }
 
 	.personel {
-	  	flex-wrap: wrap;
+	  	-ms-flex-wrap: wrap;
+	  	    flex-wrap: wrap;
 	}
 
 	.personel .person .circle {
@@ -525,11 +582,13 @@ header {
 	  }	  
 
 	.numbers {
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 	}
 
 	.contact .container {
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 	}
 
 }
@@ -541,15 +600,21 @@ header {
 	}	
 
 	.menu {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-pack: center;
+		    justify-content: center;
+		-ms-flex-align: center;
+		    align-items: center;
 	}
 
 	.menu > ul {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		-ms-flex-direction: column;
+		    flex-direction: column;
+		-ms-flex-pack: center;
+		    justify-content: center;
+		-ms-flex-align: center;
+		    align-items: center;
 	}
 
 	.menu > ul > li {
@@ -557,7 +622,8 @@ header {
 	}
 
 	.icons {
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 	}
 
 	.icons .box1, 
@@ -568,6 +634,7 @@ header {
 	}
 
 	.box4 {
+		display: -ms-flexbox;
 		display: flex;
 	}
 
@@ -577,9 +644,12 @@ header {
 
 	.gallery .row-1,
 	.gallery .row-2 {
-		flex-direction: column;	
-		justify-content: center;
-		align-items: center;
+		-ms-flex-direction: column;
+		    flex-direction: column;	
+		-ms-flex-pack: center;	
+		    justify-content: center;
+		-ms-flex-align: center;
+		    align-items: center;
 	}
 
 	.gallery [class*="gallery-photo"] {
@@ -602,7 +672,8 @@ header {
 	  }
 
 	.promotion .container {
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 		height: 600px;
 	}
 
@@ -613,11 +684,13 @@ header {
 	}
 
 	.numbers {
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 	} 
 
 	.contact .container {
-		flex-direction: column;
+		-ms-flex-direction: column;
+		    flex-direction: column;
 	}
 
 }
