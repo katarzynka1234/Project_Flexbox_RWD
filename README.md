@@ -10,7 +10,7 @@ Picture used in project are taken form PEXELS: https://www.pexels.com/
 
 Used method
 CSS3:
-> Flexbox
+> Flexbox,
 > RWD Media queries
 
 
