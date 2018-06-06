@@ -2,13 +2,15 @@
 
  https://katarzynka1234.github.io/Project_Flexbox_RWD/
 
-
-This full RWD project is based on a JPG template. The source file is for preview in the image folder.
+This is my project where I slice JPG to HTML.
+JPG file is placed in folder images.
+Picture used in project are taken form PEXELS: https://www.pexels.com/
 
 Used method:
+CSS3:
 > Flexbox
 > RWD Media queries
-> CSS3
+
 
 
 
