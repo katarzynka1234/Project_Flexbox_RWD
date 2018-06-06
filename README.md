@@ -6,7 +6,7 @@ This is my project where I slice JPG to HTML.
 JPG file is placed in folder images.
 Picture used in project are taken form PEXELS: https://www.pexels.com/
 
-Used method:
+Used method
 CSS3:
 > Flexbox
 > RWD Media queries
