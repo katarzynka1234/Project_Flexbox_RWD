@@ -654,7 +654,7 @@ header {
 
 	.gallery [class*="gallery-photo"] {
     	height: 200px;
-    	max-width: 60%;
+    	max-width: 100%;
     	background-repeat: no-repeat;
     	background-size: cover;
   	}
