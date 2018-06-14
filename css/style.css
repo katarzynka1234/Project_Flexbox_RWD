@@ -34,10 +34,12 @@ header {
  }
 
 .menu .logo {
+	color: #fff;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+			align-items: center;
+			
 }
 
 .menu > ul {
