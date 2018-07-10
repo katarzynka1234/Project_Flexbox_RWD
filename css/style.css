@@ -81,7 +81,7 @@ header {
 
 .hero {  
   padding: 0;
-  background-image: url(https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+  background-image: url("../images/hero/pexels-photo-327482.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -175,52 +175,52 @@ header {
 
 
 .gallery-photo1 {
-  background-image: url("https://images.pexels.com/photos/227675/pexels-photo-227675.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-157811.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo2 {
-  background-image: url("https://images.pexels.com/photos/417273/pexels-photo-417273.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-227675.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo3 {
-  background-image: url("https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-323705.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo4 {
-  background-image: url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-325185.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo5 {
-  background-image: url("https://images.pexels.com/photos/356830/pexels-photo-356830.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-356830.jpeg");
   -ms-flex: 2;
       flex: 2;
 }
 .gallery-photo6 {
-  background-image: url("https://images.pexels.com/photos/533930/pexels-photo-533930.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-533930.jpeg");
   -ms-flex: 2;
       flex: 2;
 }
 .gallery-photo7 {
-  background-image: url("https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-373912.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo8 {
-  background-image: url("https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-417273.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo9 {
-  background-image: url("https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-443383.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
 .gallery-photo10 {
-  background-image: url("https://images.pexels.com/photos/534174/pexels-photo-534174.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/gallery/pexels-photo-534174.jpeg");
   -ms-flex: 1;
       flex: 1;
 }
@@ -288,16 +288,16 @@ header {
 }
 
 .os1 {
-  background-image: url("https://images.pexels.com/photos/428331/pexels-photo-428331.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/personel/pexels-photo-1065084.jpeg");
 }
 .os2 {
-  background-image: url("https://images.pexels.com/photos/428341/pexels-photo-428341.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/personel/pexels-photo-542282.jpeg");
 }
 .os3 {
-  background-image: url("https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/personel/pexels-photo-762020.jpeg");
 }
 .os4 {
-  background-image: url("https://images.pexels.com/photos/542282/pexels-photo-542282.jpeg?h=350&auto=compress&cs=tinysrgb");
+  background-image: url("../images/personel/pexels-photo-903661.jpeg");
 }
 
 .personel .person .profesion {
@@ -349,7 +349,7 @@ header {
 .promotion .container .promo-picture {
 	  -ms-flex: 1;
 	      flex: 1;	  
-	  background-image: url("https://images.pexels.com/photos/355988/pexels-photo-355988.jpeg?h=350&auto=compress&cs=tinysrgb");
+	  background-image: url("../images/promotion/pexels-photo-355988.jpeg");
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
