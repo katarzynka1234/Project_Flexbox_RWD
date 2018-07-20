@@ -2,16 +2,14 @@
 
  https://katarzynka1234.github.io/Project_Flexbox_RWD/
 
-This is my project where I slice JPG to HTML.
+### Project where I slice JPG to HTML.
 
-JPG file is placed in folder images.
+The photos used are from the freestcok PEXELS: https://www.pexels.com/
 
-The photos used are from the PEXELS: https://www.pexels.com/
+Used  web technologies:
+> HTML
 
-Used method
-CSS3:
-> Flexbox,
-> RWD Media queries
+> CSS3: Flexbox,  RWD Media queries
 
 
 
